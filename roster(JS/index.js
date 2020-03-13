@@ -9,11 +9,28 @@ $(function () {
     })
     */
 
+    $(document).ready(function() {
+        for ( var i=0 ; i<30; i++) {
+            if ( i%2 == 0 ) {
+                $('tr>.first_td').eq(i).css('background-color', '#dbdbdb');
+            }
+        }
+    })
+
+    /*
+        for (var i = 0; i <3; i++) {
+
+            if ( $('input#shift').eq(i).val() == '휴무' ) {
+                j++;
+            }
+        }
+        */
+
     $('#btn').on('click', function () {
         var a = '0';
         var b = '0';
         var c = '0';
-        for (var i = 0; i < 15; i++) {
+        for (var i = 0; i < 90; i++) {
 
             if ($('input.shift').eq(i).val() == '휴무') {
                 if (i % 3 == 0) {
@@ -53,7 +70,7 @@ $(function () {
         var a = '0';
         var b = '0';
         var c = '0';
-        for (var i = 0; i < 15; i++) {
+        for (var i = 0; i < 90; i++) {
 
             if ($('input.shift').eq(i).val() == '휴무') {
                 if (i % 3 == 0) {
@@ -78,8 +95,10 @@ $(function () {
         $('input#total_3').attr('value', c);
     });
 
+    /*
     $('#test').on('mouseleave', function () {
         $('#test').css('color', 'blue');
     }
     )
+    */
 });

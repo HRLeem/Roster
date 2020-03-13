@@ -6,49 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
     <title>근무표</title>
-    <style>
-        .wrap {
-            width: 1200px;
-            margin: auto;
-        }
-
-        table {
-            width: 500px;
-            border: 1px solid #dbdbdb;
-            padding: 10px;
-            text-align: center;
-            border-collapse: collapse;
-        }
-
-        .first_td {
-            width: 50px;
-        }
-
-        td {
-            border: 1px solid #dbdbdb;
-            height: 25px;
-        }
-
-        .shift {
-            width: 154px;
-            height: 25px;
-            border: none;
-        }
-
-        input {
-            text-align: center;
-        }
-        h5 {
-            color: mediumorchid;
-        }
-    </style>
 </head>
 
 <body>
     <div class='wrap'>
-        <h1 id="test">근무표</h1>
+        <h1 id="test">4월 근무표</h1>
+        <h6>휴무 : 10개</h6>
+        <!--
         <button id="btn">tlqkf</button>
+        -->
         <table name="roster">
             <thead>
                 <td></td>
@@ -59,7 +27,7 @@
             <tbody>
                 <tr>
                     <td class="first_td">
-                        1
+                        1   수
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -73,7 +41,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        2
+                        2   <span class="TT">목</span>
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -87,7 +55,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        3
+                        3   금
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -101,7 +69,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        4
+                        4   토
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -115,7 +83,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        5
+                        5   일
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -129,7 +97,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        6
+                        6 월
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -143,7 +111,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        7
+                        7   <span class="TT">화</span>
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -157,7 +125,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        8
+                        8   수
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -171,7 +139,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        9
+                        9   <span class="TT">목</span>
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -185,7 +153,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        10
+                        10  금
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -199,7 +167,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        11
+                        11  토
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -213,7 +181,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        12
+                        12  일
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -227,7 +195,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        13
+                        13 월
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -241,7 +209,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        14
+                        14  <span class="TT">화</span>
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -255,7 +223,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        15
+                        15  수
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -269,7 +237,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        16
+                        16  <span class="TT">목</span>
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -283,7 +251,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        17
+                        17  금
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -297,7 +265,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        18
+                        18  토
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -311,7 +279,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        19
+                        19  일
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -325,7 +293,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        20
+                        20 월
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -339,7 +307,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        21
+                        21  <span class="TT">화</span>
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -353,7 +321,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        22
+                        22  수
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -367,7 +335,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        23
+                        23  <span class="TT">목</span>
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -381,7 +349,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        24
+                        24  금
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -395,7 +363,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        25
+                        25  토
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -409,7 +377,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        26
+                        26  일
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -423,7 +391,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        27
+                        27 월
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -437,7 +405,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        28
+                        28  <span class="TT">화</span>
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -451,7 +419,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        29
+                        29  수
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
@@ -465,7 +433,7 @@
                 </tr>
                 <tr>
                     <td class="first_td">
-                        30
+                        30  <span class="TT">목</span>
                     </td>
                     <td class="shift_box">
                         <input type="text" class="shift" id="1">
