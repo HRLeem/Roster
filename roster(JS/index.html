@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <title>근무표</title>
+    <style>
+        .wrap {
+            width: 1200px;
+            margin: auto;
+        }
+
+        table {
+            width: 500px;
+            border: 1px solid #dbdbdb;
+            padding: 10px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        .first_td {
+            width: 50px;
+        }
+
+        td {
+            border: 1px solid #dbdbdb;
+            height: 25px;
+        }
+
+        .shift {
+            width: 154px;
+            height: 25px;
+            border: none;
+        }
+
+        input {
+            text-align: center;
+        }
+        h5 {
+            color: mediumorchid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='wrap'>
+        <h1 id="test">근무표</h1>
+        <button id="btn">tlqkf</button>
+        <table name="roster">
+            <thead>
+                <td></td>
+                <td>이**</td>
+                <td>장**</td>
+                <td>임하람</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="first_td">
+                        1
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        2
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        3
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        4
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        5
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        6
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        7
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        8
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        9
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        10
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        11
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        12
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        13
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        14
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        15
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        16
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        17
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        18
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        19
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        20
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        21
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        22
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        23
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        24
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        25
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        26
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        27
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        28
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        29
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first_td">
+                        30
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="3">
+                    </td>
+                </tr>
+                
+                
+                
+                <tr>
+                    <td class="first_td" style="font-size:5px;">
+                        휴무
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="total_1">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="total_2">
+                    </td>
+                    <td class="shift_box">
+                        <input type="text" class="shift" id="total_3">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
